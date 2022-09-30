@@ -74,7 +74,7 @@ class testaustime {
     }
 
     TestaustimeDeactivate() {
-        clearInterval(this.interval);
+        clearInterval(this.timer);
         this.flush();
     }
 }
